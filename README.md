@@ -1,6 +1,6 @@
 # RNAseq-NF pipeline 
 
-A basic pipeline for quantification of genomic features from short read data
+A basic pipeline for quantification of genomic features from short read data, edited for debugging
 implemented with Nextflow.
 
 [![nextflow](https://img.shields.io/badge/nextflow-%E2%89%A50.24.0-brightgreen.svg)](http://nextflow.io)
@@ -61,12 +61,15 @@ where the pipeline is going to be executed with the following content:
 To lean more about the avaible settings and the configuration file read the 
 Nextflow [documentation](http://www.nextflow.io/docs/latest/config.html).
 
+## Debugging AWS Batch
+
+This version is created for debugging Salmon on AWS Batch
 
 ## Components 
 
 RNASeq-NF uses the following software components and tools: 
 
-* [Salmon](https://combine-lab.github.io/salmon/) 0.8.2
+* [Salmon](https://combine-lab.github.io/salmon/) Updated to latest
 * [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) 0.11.5
 * [Multiqc](https://multiqc.info) 1.0
 

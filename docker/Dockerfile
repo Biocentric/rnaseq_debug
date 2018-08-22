@@ -1,5 +1,5 @@
 FROM continuumio/miniconda
-MAINTAINER Paolo Di Tommaso <paolo.ditommaso@gmail.com>
+MAINTAINER Sander Bervoets <sander@biocentric.nl>
 
 RUN apt-get -y install ttf-dejavu
 
