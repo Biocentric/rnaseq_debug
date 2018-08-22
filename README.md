@@ -21,7 +21,7 @@ implemented with Nextflow.
 
 3. Launch the pipeline execution: 
 
-        ./nextflow run nextflow-io/rnaseq-nf -with-docker
+        ./nextflow run Biocentric/rnaseq_debug -with-docker
         
 4. When the execution completes open in your browser the report generated at the following path:
 
